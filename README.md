@@ -58,6 +58,7 @@ The output PNG will be saved in the same folder. A preview window will also open
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `detail` | `180` | Number of ASCII columns — higher detail means smaller font size and finer output |
+| `scale` | `2` | Works like an upscaler — multiplies output resolution without changing the ASCII grid |
 | `colored` | `True` | Color output vs grayscale |
 | `depth` | `True` | Use brightness for grayscale intensity |
 | `threshold` | `0` | Pixels below this brightness become spaces |
